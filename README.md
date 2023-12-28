@@ -10,7 +10,13 @@ Enterprise security mode, requires a __RADIUS__ server for __Authentication__, _
 ### The combination of 802.1X, EAP, and RADIUS is employed to establish robust and secure network access control:
 __802.1X__ is a network access control standard that requires user or device authentication before granting access to the network. It establishes the framework for authentication at the data link layer.
 __EAP__ is used to encapsulate authentication messages between the client and the authentication server.
-__RADIUS__ is commonly employed for communication between the authenticator (for example a switch) and the authentication server."
+__RADIUS__ is commonly employed for communication between the authenticator (for example a switch) and the authentication server.", __RADIUS__ only encrypts the user's password, is a more commonly implemented protocol and is compatible with a wide range of devices and services, including remote access services, wireless networks (Wi-Fi), and VPN."
+
+
+
+
+
+
 
 ## The authentication process typically involves the following steps:
 __Initialization__: The supplicant initiates the connection to the network, and the authenticator places the port in a "closed" or unauthorized state.
