@@ -1,6 +1,9 @@
 
 # Securing-Enterprise-Access
-### References: https://www.cisco.com/c/en/us/td/docs/routers/ios/config/17-x/sec-vpn/b-security-vpn/m_sec-cfg-radius.html#GUID-F1255174-62BA-483C-B48A-09B8E6996760
+### References: 
+https://www.cisco.com/c/en/us/td/docs/routers/ios/config/17-x/sec-vpn/b-security-vpn/m_sec-cfg-radius.html#GUID-F1255174-62BA-483C-B48A-09B8E6996760
+
+https://www.watchguard.com/help/docs/fireware/12/fr-FR/Content/fr-FR/authentication/radius_server_auth_about_c.html
 ## Elevating Security: The Power of 802.1X, EAP, and RADIUS in the Enterprise
 Enterprise security mode, requires a __RADIUS__ server for __Authentication__, __Authorization__, and __Accounting__ __(AAA)__: 
 ### FreeRADIUS is the underlying AAA server that handles authentication and authorization, while DaloRADIUS is a web interface that simplifies the management and configuration of a FreeRADIUS server through a graphical user interface.
