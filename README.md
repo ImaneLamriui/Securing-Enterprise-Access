@@ -41,10 +41,22 @@ As I am in a testing environment, I have chosen the password type as 'cleartext-
 __RADIUS__ interacts with a network device known as __NAS__ (Network Access Server), which can be, for example, a Wi-Fi access point, a switch, or another similar device. The term 'default __NAS__ access point' refers to the default __NAS__ used in the process.
 The process involves sending a request to create a new user in __RADIUS__ environment, where a __NAS__ is utilized as the access point to the network. This process is essential for MANAGING user access to the network and ensuring proper authentication.
 
+__What is the process?__
+
+The integration of __RADIUS__ with a __NAS__ provides an additional layer of security and access control. __RADIUS__ allows for the centralized management of user credentials, simplifying account administration and the enforcement of security policies. 
+This approach is common in environments where precise control over access to storage resources is needed, especially in ENTERPRISE networks.
+
+__The steps of the process:__
+#### a)-When a user attempts to access resources stored on the __NAS__, the __NAS__ requests user authentication from a __RADIUS__ server. 
+#### b)-The __RADIUS__ server undergoes the authentication process, which may include verifying the user's credentials (username and password) in a secure database
+#### c)-After successful authentication, the __RADIUS__ server may provide additional authorization information. 
+#### d)-The __RADIUS__ server sends a response to the __NAS__ indicating whether authentication was successful. 
+#### e)-If authentication and authorization are successful, the __NAS__ allows the user to access the requested resources, such as files stored on the device.
 <img src="request-with-the-new-user.png">
 
-##### NAS, or 'Network Attached Storage,' enables users to store and share data over a local network (LAN) or even over the Internet. It is essentially a file server. In addition to file storage, some NAS devices can provide additional functions such as media servers, print servers, and additional applications through the installation of apps or software packages. 
-##### NAS devices typically come with built-in security features, including the ability to set user permissions and encrypt data to protect privacy and security, provides an efficient and centralized storage solution for both home and business environments, facilitating the management and access of data across the network.
+__NAS__, or 'Network Attached Storage,' enables users to store and share data over a local network (LAN) or even over the Internet. It is essentially a file server. In addition to file storage, some __NAS__ devices can provide additional functions such as media servers, print servers, and additional applications through the installation of apps or software packages. 
+
+__NAS__ devices typically come with built-in security features, including the ability to set user permissions and encrypt data to protect privacy and security, provides an efficient and centralized storage solution for both home and business environments, facilitating the management and access of data across the network.
 
 
 
