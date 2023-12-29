@@ -34,10 +34,17 @@ __Network Access Granted__: If the authentication is successful, the authenticat
 __Secure Data Transfer__: With the supplicant successfully authenticated and authorized, secure data transfer can occur over the network.
 
 ### I have added a new user 'Imane', to the database.
+As I am in a testing environment, I have chosen the password type as 'cleartext-password,' but it is not a good practice.
 <img src="user-added.png">
 
-### I send a request with the new user to the default NAS access point, which could be a Wi-Fi access point, switch, or similar.
+### I send a request with the new user to the default NAS access point, which could be a Wi-Fi access point, switch, or similar. 
+__RADIUS__ interacts with a network device known as __NAS__ (Network Access Server), which can be, for example, a Wi-Fi access point, a switch, or another similar device. The term 'default __NAS__ access point' refers to the default __NAS__ used in the process.
+The process involves sending a request to create a new user in __RADIUS__ environment, where a __NAS__ is utilized as the access point to the network. This process is essential for MANAGING user access to the network and ensuring proper authentication.
+
 <img src="request-with-the-new-user.png">
+
+##### NAS, or 'Network Attached Storage,' enables users to store and share data over a local network (LAN) or even over the Internet. It is essentially a file server. In addition to file storage, some NAS devices can provide additional functions such as media servers, print servers, and additional applications through the installation of apps or software packages. 
+##### NAS devices typically come with built-in security features, including the ability to set user permissions and encrypt data to protect privacy and security, provides an efficient and centralized storage solution for both home and business environments, facilitating the management and access of data across the network.
 
 
 
